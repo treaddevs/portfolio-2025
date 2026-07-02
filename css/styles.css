@@ -628,7 +628,7 @@ nav.navbar {
 }
 
 .contact-title hr {
-  border: 2px solid var(--font-color-secondary);;
+  border: 2px solid var(--font-color-secondary);
   opacity: 0.2;
 }
 
