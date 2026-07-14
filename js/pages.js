@@ -1,4 +1,122 @@
 export const pages = {
+    pocketchef: {
+        tabImg: "/svg/tab.svg",
+        title: "PocketChef -<br>Recipe & Meal Planning App",
+        heroBackgroundColor: "linear-gradient(to bottom, #BFBBAF, #CE9A00)",
+        backgroundColor: "#CE9A00",
+        heroDesc: "I led research and designed end-to-end<br>workflows for an AI-powered meal planning experience.",
+        role: "Product Designer",        
+        context: "Class Project: AI for HCI",
+        timeline: "January – April 2026",
+        logo: "/images/pocketchef-logo.webp",
+        logoAlt: "PocketChef logo",
+        heroLink: "https://www.figma.com/proto/LuysxxgvINMgyiW4gxUMeo/Pocket-Chef---Recipe---Meal-Planning-App?node-id=243-3138&p=f&t=5rxyoYshYqfZrGcp-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1",
+        sections: [
+            {
+                heading: "Responsibilities",
+                text: "I was responsible for conducting user research through survey responses, defining UX strategy, and designing the end-to-end mobile application experience."
+            },
+            {
+                type: "video",
+                src: "/videos/pocketchef-demo.mp4",
+                alt: "Video of Figma presentation showing PocketChef App screens presented on iPhone 16 devices"
+            },
+            {
+                heading: "Problem",
+                text: `Users often rely on fragmented tools like search engines, social media, screenshots, and printed recipes to discover, save, and manage meals. This creates disorganized workflows, inconsistent planning habits, and friction throughout the cooking process. PocketChef explored how AI-assisted workflows could unify recipe discovery, meal planning, grocery management, and cooking into a more streamlined and personalized experience.`,
+            },
+            {
+                heading: "User Journey",
+                text: `The user journey revealed friction across every stage of the cooking workflow — from endlessly scrolling for recipes and forgetting saved meals to disorganized grocery shopping and stressful cooking experiences.<br><br>
+
+                Common pain points included:
+                <ol>
+                    <li>Recipe overload and decision fatigue</li>
+                    <li>Scattered recipe storage across platforms</li>
+                    <li>Forgotten or duplicate grocery items</li>
+                    <li>Difficulty following recipes while cooking</li>
+                </ol>
+                <br>
+                These insights informed features like guided cooking, ingredient-based search, automatic grocery lists, and centralized recipe organization.`
+            },
+            {
+                type: "image",
+                src: "/images/pocketchef-user-journey.webp",
+                alt: "Recipe and meal planning user journey"
+            },
+            {
+                heading: "Survey Insights",
+                text: `Survey results showed that meal planning and recipe management were highly inconsistent across users. Most participants relied on general-purpose tools rather than dedicated cooking platforms, while common frustrations included long preparation times, missing ingredients, and disorganized recipe storage. Users responded most positively to ingredient-based recommendations, grocery list generation, and simplified meal planning tools. While there was cautious openness to AI assistance, users consistently prioritized clarity, speed, and convenience.`,
+            },
+            {
+                type: "image",
+                src: "/images/pocketchef-survey-insights.webp",
+                alt: "PocketChef recipe & meal planning app survey insights"
+            },
+            {
+                heading: "Market Research",
+                text: `Market research revealed that existing recipe and meal planning apps often excelled in individual features but lacked a cohesive end-to-end experience. While AI capabilities were beginning to emerge, they were typically limited to basic recommendations with minimal personalization or transparency. Common pain points included fragmented workflows, overwhelming recipe libraries, and disconnected meal planning tools. These findings highlighted an opportunity to leverage AI to simplify recipe discovery, personalize meal planning, and unify grocery management within a single intuitive platform.`,
+            },
+            {
+                type: "image",
+                src: "/images/pocketchef-market-research.webp",
+                alt: "Competitive analysis and market research of recipe & meal planning apps"
+            },
+            {
+                heading: "Design Challenges",
+                text: "One of the primary challenges was balancing feature depth with usability. Because the platform combined recipe discovery, meal planning, grocery management, and AI-assisted recommendations, the experience risked becoming overly complex. The design process focused heavily on simplifying navigation, reducing cognitive load, and maintaining clarity across interconnected workflows."
+            },
+            {
+                heading: "Wireframing & Information Architecture",
+                text: "Early wireframes focused on organizing PocketChef's interconnected workflows into a structure that felt approachable rather than overwhelming. Because the product combined recipe discovery, meal planning, grocery management, and AI-assisted recommendations, I explored multiple navigation patterns, screen hierarchies, and task flows to determine how users could move efficiently between planning, shopping, and cooking activities. These low-fidelity concepts helped validate feature organization and identify opportunities to reduce friction before investing in high-fidelity design."
+            },
+            {
+                type: "image",
+                src: "/images/pocketchef-wireframes.webp",
+                alt: "Initial versions of PocketChef UI screens for: logo screen, recipes, recipe details, nutrition, imports, cookbooks, AI-generated meal plans, diet plans, filter by ingredients, and grocery list"
+            },
+            {
+                heading: "Interactive Components",
+                text: "As the product evolved, I focused on creating reusable interface patterns in Figma that could scale across the experience. Interactive components such as recipe cards, dietary filters, navigation states, grocery checklist items, planner modules, and onboarding selections were designed as reusable building blocks rather than one-off screens. This approach improved consistency, accelerated iteration, and helped establish a foundation for a scalable design system that could support future product growth."
+            },
+            {
+                type: "image",
+                src: "/images/pocketchef-components.webp",
+                alt: "Interactive Figma components used in the app's architecture"
+            },
+            {
+                heading: `Onboarding & Discovery`,
+                text: `The onboarding experience personalizes recommendations through dietary preferences, allergies, and cooking skill level to tailor recipe discovery from the start. Discovery focuses on intention-based browsing through filters like Fast, Easy, Healthy, and Stocked, helping users quickly find contextually relevant meals. Ingredient-based search and recipe imports further simplify discovery by centralizing recipes typically scattered across websites, screenshots, and social media.`,
+            },
+            {
+                type: "image",
+                src: "/images/pocketchef-app-setup.webp",
+                alt: "PocketChef setup with user preferences, discovery feed, filter by ingredients, and import screens"
+            },
+            {
+                heading: `Recipes & Meal Planning`,
+                text: `PocketChef centers around recipe saving, personalized cookbooks, meal planning, and guided cooking workflows. Recipe pages include ingredient lists, nutrition information, and adjustable serving sizes, while guided cooking mode improves readability through larger text, timers, and read-aloud instructions. The Meal Planner provides a visual weekly overview for organizing breakfast, lunch, and dinner, while the Grocery List automatically compiles ingredients into categorized, checkable shopping lists to streamline planning and execution.`,
+            },
+            {
+                type: "image",
+                src: "/images/pocketchef-app-features.webp",
+                alt: "PocketChef core features including Recipes with a description, nutrition information, step-by-step instructions and guided mode, and Meal Planner and Grocery List features"
+            },
+            {
+                heading: "Design System",
+                text: `The PocketChef design system established a scalable foundation through semantic design tokens, reusable UI components, and standardized typography, spacing, color, and radius systems. The interface combined Poppins, Lexend, and Plus Jakarta Sans to reinforce hierarchy, readability, and brand identity. Reusable components including buttons, recipe cards, dietary tags, navigation states, and progress indicators helped ensure consistency, accessibility, and efficient iteration across the product experience.`,
+            },
+            {
+                type: "image",
+                src: "/images/pocketchef-design-system.webp",
+                alt: "PocketChef design system"
+            },
+            {
+                heading: "Reflection",
+                text: `PocketChef explored how AI-assisted workflows could simplify the end-to-end cooking experience by unifying recipe discovery, meal planning, grocery management, and guided cooking into a single system. Through research-driven UX decisions, intention-based discovery, accessibility-focused cooking tools, and streamlined planning workflows, the project transformed fragmented cooking behaviors into a more organized and intuitive experience.`,
+            },
+        ]
+    },
     navimental: {
         tabImg: "/svg/tab.svg",
         title: "Navimental -<br>Mental Health Dashboard",
@@ -126,115 +244,6 @@ export const pages = {
             },
         ]
     },
-    pocketchef: {
-        tabImg: "/svg/tab.svg",
-        title: "PocketChef -<br>Recipe & Meal Planning App",
-        heroBackgroundColor: "linear-gradient(to bottom, #BFBBAF, #CE9A00)",
-        backgroundColor: "#CE9A00",
-        heroDesc: "I led research and designed end-to-end<br>workflows for an AI-powered meal planning experience.",
-        role: "Product Designer",        
-        context: "Class Project: AI for HCI",
-        timeline: "January – April 2026",
-        logo: "/images/pocketchef-logo.webp",
-        logoAlt: "PocketChef logo",
-        heroLink: "https://www.figma.com/proto/LuysxxgvINMgyiW4gxUMeo/Pocket-Chef---Recipe---Meal-Planning-App?node-id=243-3138&p=f&t=5rxyoYshYqfZrGcp-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1",
-        sections: [
-            {
-                heading: "Responsibilities",
-                text: "I was responsible for conducting user research through survey responses, defining UX strategy, and designing the end-to-end mobile application experience."
-            },
-            {
-                type: "video",
-                src: "/videos/pocketchef-demo.mp4",
-                alt: "Video of Figma presentation showing PocketChef App screens presented on iPhone 16 devices"
-            },
-            {
-                heading: "Problem",
-                text: `Users often rely on fragmented tools like search engines, social media, screenshots, and printed recipes to discover, save, and manage meals. This creates disorganized workflows, inconsistent planning habits, and friction throughout the cooking process. PocketChef explored how AI-assisted workflows could unify recipe discovery, meal planning, grocery management, and cooking into a more streamlined and personalized experience.`,
-            },
-            {
-                heading: "User Journey",
-                text: `The user journey revealed friction across every stage of the cooking workflow — from endlessly scrolling for recipes and forgetting saved meals to disorganized grocery shopping and stressful cooking experiences.<br><br>
-
-                Common pain points included:
-                <ol>
-                    <li>Recipe overload and decision fatigue</li>
-                    <li>Scattered recipe storage across platforms</li>
-                    <li>Forgotten or duplicate grocery items</li>
-                    <li>Difficulty following recipes while cooking</li>
-                </ol>
-                <br>
-                These insights informed features like guided cooking, ingredient-based search, automatic grocery lists, and centralized recipe organization.`
-            },
-            {
-                type: "image",
-                src: "/images/pocketchef-user-journey.webp",
-                alt: "Recipe and meal planning user journey"
-            },
-            {
-                heading: "Survey Insights",
-                text: `Research revealed that meal planning and recipe management were highly inconsistent across users. Most participants relied on general-purpose tools rather than dedicated cooking platforms, while common frustrations included long preparation times, missing ingredients, and disorganized recipe storage. Users responded most positively to ingredient-based recommendations, grocery list generation, and simplified meal planning tools. While there was cautious openness to AI assistance, users consistently prioritized clarity, speed, and convenience.`,
-            },
-            {
-                type: "image",
-                src: "/images/pocketchef-survey-insights.webp",
-                alt: "PocketChef recipe & meal planning app survey insights"
-            },
-            {
-                heading: "Design Challenges",
-                text: "One of the primary challenges was balancing feature depth with usability. Because the platform combined recipe discovery, meal planning, grocery management, and AI-assisted recommendations, the experience risked becoming overly complex. The design process focused heavily on simplifying navigation, reducing cognitive load, and maintaining clarity across interconnected workflows."
-            },
-            {
-                heading: "Wireframing & Information Architecture",
-                text: "Early wireframes focused on organizing PocketChef's interconnected workflows into a structure that felt approachable rather than overwhelming. Because the product combined recipe discovery, meal planning, grocery management, and AI-assisted recommendations, I explored multiple navigation patterns, screen hierarchies, and task flows to determine how users could move efficiently between planning, shopping, and cooking activities. These low-fidelity concepts helped validate feature organization and identify opportunities to reduce friction before investing in high-fidelity design."
-            },
-            {
-                type: "image",
-                src: "/images/pocketchef-wireframes.webp",
-                alt: "Initial versions of PocketChef UI screens for: logo screen, recipes, recipe details, nutrition, imports, cookbooks, AI-generated meal plans, diet plans, filter by ingredients, and grocery list"
-            },
-            {
-                heading: "Interactive Components",
-                text: "As the product evolved, I focused on creating reusable interface patterns that could scale across the experience. Interactive components such as recipe cards, dietary filters, navigation states, grocery checklist items, planner modules, and onboarding selections were designed as reusable building blocks rather than one-off screens. This approach improved consistency, accelerated iteration, and helped establish a foundation for a scalable design system that could support future product growth."
-            },
-            {
-                type: "image",
-                src: "/images/pocketchef-components.webp",
-                alt: "Interactive Figma components used in the app's architecture"
-            },
-            {
-                heading: `Onboarding & Discovery`,
-                text: `The onboarding experience personalizes recommendations through dietary preferences, allergies, and cooking skill level to tailor recipe discovery from the start. Discovery focuses on intention-based browsing through filters like Fast, Easy, Healthy, and Stocked, helping users quickly find contextually relevant meals. Ingredient-based search and recipe imports further simplify discovery by centralizing recipes typically scattered across websites, screenshots, and social media.`,
-            },
-            {
-                type: "image",
-                src: "/images/pocketchef-app-setup.webp",
-                alt: "PocketChef setup with user preferences, discovery feed, filter by ingredients, and import screens"
-            },
-            {
-                heading: `Core Features`,
-                text: `PocketChef centers around recipe saving, personalized cookbooks, meal planning, and guided cooking workflows. Recipe pages include ingredient lists, nutrition information, and adjustable serving sizes, while guided cooking mode improves readability through larger text, timers, and read-aloud instructions. The Meal Planner provides a visual weekly overview for organizing breakfast, lunch, and dinner, while the Grocery List automatically compiles ingredients into categorized, checkable shopping lists to streamline planning and execution.`,
-            },
-            {
-                type: "image",
-                src: "/images/pocketchef-app-features.webp",
-                alt: "PocketChef core features including Recipes with a description, nutrition information, step-by-step instructions and guided mode, and Meal Planner and Grocery List features"
-            },
-            {
-                heading: "Design System",
-                text: `The PocketChef design system established a scalable foundation through semantic design tokens, reusable UI components, and standardized typography, spacing, color, and radius systems. The interface combined Poppins, Lexend, and Plus Jakarta Sans to reinforce hierarchy, readability, and brand identity. Reusable components including buttons, recipe cards, dietary tags, navigation states, and progress indicators helped ensure consistency, accessibility, and efficient iteration across the product experience.`,
-            },
-            {
-                type: "image",
-                src: "/images/pocketchef-design-system.webp",
-                alt: "PocketChef design system"
-            },
-            {
-                heading: "Reflection",
-                text: `PocketChef explored how AI-assisted workflows could simplify the end-to-end cooking experience by unifying recipe discovery, meal planning, grocery management, and guided cooking into a single system. Through research-driven UX decisions, intention-based discovery, accessibility-focused cooking tools, and streamlined planning workflows, the project transformed fragmented cooking behaviors into a more organized and intuitive experience.`,
-            },
-        ]
-    },
     via: {
         tabImg: "/svg/tab.svg",
         title: "Boredom-Blaster -<br>AI-Powered Chatbot",
@@ -315,6 +324,95 @@ export const pages = {
             {
                 heading: "Reflection",
                 text: "This project reinforced the importance of cross-functional collaboration and rapid ideation when developing AI-powered experiences. Our team pitched the concept internally, presented early design ideas, and iterated collaboratively across strategy, design, and development disciplines to shape the final product direction. Building the chatbot also required thinking beyond conversational responses by considering user intent, content structure, interaction flow, and guardrails for a client-facing experience."
+            }
+        ]
+    },
+        esol: {
+        tabImg: "/svg/tab.svg",
+        title: "Communication<br>App for Language Educators",
+        heroBackgroundColor: "linear-gradient(to bottom, #30A5B6, #017579)",
+        backgroundColor: "#017579",
+        heroDesc: "I led this Capstone project to design and<br>develop a centralized communication<br>platform for Portland, Maine’s ESOL Collaborative.",
+        role: "Fullstack Developer",
+        context: "Capstone Project",
+        timeline: "September 2024 – April 2025",
+        logo: "/images/esol-logo.webp",
+        logoAlt: "Portland Maine ESOL Collaborative chat bubbles logo",
+        heroLink: "https://github.com/treaddevs/esol-app/tree/main",
+        sections: [
+            {
+                heading: "Product Overview",
+                text: "The ESOL Communication App is a centralized platform designed for educators and coordinators in Portland, Maine’s ESOL Collaborative. The goal was to improve communication, resource sharing, and scheduling across distributed language education teams."
+            },
+            {
+                type: "video",
+                src: "/videos/esol-demo.mp4",
+                alt: "Video of the Communication App for ESOL Educators"
+            },
+            {
+                heading: "The Challenge",
+                text: "Designing a unified communication system for educators and coordinators that supports real-time messaging, resource sharing, and scheduling while addressing fragmented workflows and inconsistent information flow across the organization."
+            },
+            {
+                heading: "Discovery & Requirements",
+                text: `Through stakeholder meetings with the ESOL Collaborative, we identified key communication and workflow challenges across educators and administrators.<br><br>
+                The system needed to support three primary functions:
+                <ol>
+                    <li>Communication between educators and coordinators</li>
+                    <li>Centralized resource sharing</li>
+                    <li>Scheduling and coordination workflows</li>
+                </ol>
+                <br>
+                Core needs included improved communication channels, centralized resource sharing, and better coordination of scheduling and attendance tracking.`
+            },
+            {
+                type: "image",
+                src: "/images/esol-collaborative.webp",
+                alt: "Portland Maine ESOL Collaborative logo"
+            },
+            {
+                heading: "Design Approach",
+                text: "I focused on designing a unified, social-like interface that balanced familiarity with functional communication tools. The goal was to reduce friction between educators while supporting structured information sharing, scheduling, and collaboration."
+            },
+            {
+                heading: "Communication System",
+                text: "The home feed acts as the central hub for educator communication, enabling posts, comments, likes, and saved content. Hashtags and trending topics help surface relevant discussions, while filtering allows users to explore specific educational themes."
+            },
+            {
+                type: "image",
+                src: "/images/esol-home.webp",
+                alt: "Screenshot of app homepage feed"
+            },
+            {
+                heading: "Resource Sharing",
+                text: "The platform supports image and video uploads to enable educators to share classroom materials and resources. A drag-and-drop interface simplifies uploading, while backend file handling ensures efficient storage and cleanup of unused media."
+            },
+            {
+                type: "image",
+                src: "/images/esol-drag-drop.webp",
+                alt: "Screenshot of drag-and-drop file behavior for uploading"
+            },
+            {
+                type: "image",
+                src: "/images/esol-media.webp",
+                alt: "Screenshot of posts with picture and video attachments"
+            },
+            {
+                heading: "Scheduling & Messaging",
+                text: "Real-time messaging enables direct communication between educators and coordinators, supporting coordination and scheduling discussions. This system was built using a third-party chat SDK to enable scalable, reliable messaging functionality."
+            },
+            {
+                type: "image",
+                src: "/images/esol-chat.webp",
+                alt: "Screenshot of users chatting in messages using the Stream Chat software development kit"
+            },
+            {
+                heading: "Technical Implementation",
+                text: "The application integrates third-party services for real-time chat, file uploads, and media handling. UploadThing was used for secure media uploads, while Stream Chat SDK powered real-time messaging functionality. Automated background processes handle cleanup of unused media to maintain system efficiency."
+            },
+            {
+                heading: "Reflection",
+                text: "This project highlighted the importance of designing for real users within organizational workflows rather than abstract personas. Working with stakeholders helped define clear functional requirements, and building a full-stack communication system reinforced the importance of balancing UX design with scalable technical architecture."
             }
         ]
     },
@@ -485,95 +583,6 @@ export const pages = {
             {
                 heading: "Reflection",
                 text: "This project reinforced the importance of hierarchy and simplicity when designing data-heavy interfaces. Even in systems with complex real-time inputs, effective design depends on reducing cognitive load and surfacing only the most relevant information at the right time."
-            }
-        ]
-    },
-    esol: {
-        tabImg: "/svg/tab.svg",
-        title: "Communication<br>App for Language Educators",
-        heroBackgroundColor: "linear-gradient(to bottom, #30A5B6, #017579)",
-        backgroundColor: "#017579",
-        heroDesc: "I led this Capstone project to design and<br>develop a centralized communication<br>platform for Portland, Maine’s ESOL Collaborative.",
-        role: "Fullstack Developer",
-        context: "Capstone Project",
-        timeline: "September 2024 – April 2025",
-        logo: "/images/esol-logo.webp",
-        logoAlt: "Portland Maine ESOL Collaborative chat bubbles logo",
-        heroLink: "https://github.com/treaddevs/esol-app/tree/main",
-        sections: [
-            {
-                heading: "Product Overview",
-                text: "The ESOL Communication App is a centralized platform designed for educators and coordinators in Portland, Maine’s ESOL Collaborative. The goal was to improve communication, resource sharing, and scheduling across distributed language education teams."
-            },
-            {
-                type: "video",
-                src: "/videos/esol-demo.mp4",
-                alt: "Video of the Communication App for ESOL Educators"
-            },
-            {
-                heading: "The Challenge",
-                text: "Designing a unified communication system for educators and coordinators that supports real-time messaging, resource sharing, and scheduling while addressing fragmented workflows and inconsistent information flow across the organization."
-            },
-            {
-                heading: "Discovery & Requirements",
-                text: `Through stakeholder meetings with the ESOL Collaborative, we identified key communication and workflow challenges across educators and administrators.<br><br>
-                The system needed to support three primary functions:
-                <ol>
-                    <li>Communication between educators and coordinators</li>
-                    <li>Centralized resource sharing</li>
-                    <li>Scheduling and coordination workflows</li>
-                </ol>
-                <br>
-                Core needs included improved communication channels, centralized resource sharing, and better coordination of scheduling and attendance tracking.`
-            },
-            {
-                type: "image",
-                src: "/images/esol-collaborative.webp",
-                alt: "Portland Maine ESOL Collaborative logo"
-            },
-            {
-                heading: "Design Approach",
-                text: "I focused on designing a unified, social-like interface that balanced familiarity with functional communication tools. The goal was to reduce friction between educators while supporting structured information sharing, scheduling, and collaboration."
-            },
-            {
-                heading: "Communication System",
-                text: "The home feed acts as the central hub for educator communication, enabling posts, comments, likes, and saved content. Hashtags and trending topics help surface relevant discussions, while filtering allows users to explore specific educational themes."
-            },
-            {
-                type: "image",
-                src: "/images/esol-home.webp",
-                alt: "Screenshot of app homepage feed"
-            },
-            {
-                heading: "Resource Sharing",
-                text: "The platform supports image and video uploads to enable educators to share classroom materials and resources. A drag-and-drop interface simplifies uploading, while backend file handling ensures efficient storage and cleanup of unused media."
-            },
-            {
-                type: "image",
-                src: "/images/esol-drag-drop.webp",
-                alt: "Screenshot of drag-and-drop file behavior for uploading"
-            },
-            {
-                type: "image",
-                src: "/images/esol-media.webp",
-                alt: "Screenshot of posts with picture and video attachments"
-            },
-            {
-                heading: "Scheduling & Messaging",
-                text: "Real-time messaging enables direct communication between educators and coordinators, supporting coordination and scheduling discussions. This system was built using a third-party chat SDK to enable scalable, reliable messaging functionality."
-            },
-            {
-                type: "image",
-                src: "/images/esol-chat.webp",
-                alt: "Screenshot of users chatting in messages using the Stream Chat software development kit"
-            },
-            {
-                heading: "Technical Implementation",
-                text: "The application integrates third-party services for real-time chat, file uploads, and media handling. UploadThing was used for secure media uploads, while Stream Chat SDK powered real-time messaging functionality. Automated background processes handle cleanup of unused media to maintain system efficiency."
-            },
-            {
-                heading: "Reflection",
-                text: "This project highlighted the importance of designing for real users within organizational workflows rather than abstract personas. Working with stakeholders helped define clear functional requirements, and building a full-stack communication system reinforced the importance of balancing UX design with scalable technical architecture."
             }
         ]
     }

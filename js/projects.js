@@ -2,7 +2,7 @@ export const projects = [
   {
     type: "phone",
     tabImg: "/svg/tab.svg",
-    title: "PocketChef -<br>Recipe & Meal<br>Planning App",
+    title: "PocketChef -<br>Recipe & Meal Planning App",
     category: "Case Study",
     skills: ["Product Design", "User Research", "UX/UI", "Design Systems"],
     desc: "Improving recipe discovery and meal planning management.",
@@ -14,7 +14,7 @@ export const projects = [
   {
     type: "laptop",
     tabImg: "/svg/tab.svg",
-    title: "Navimental -<br>Mental Health<br>Dashboard",
+    title: "Navimental -<br>Mental Health Dashboard",
     category: "Project",
     skills: ["Product Design", "UX/UI", "Dashboard Design", "Data Visualization"],
     desc: "Translating user data into actionable wellness insights.",
@@ -62,7 +62,7 @@ export const projects = [
   {
     type: "desktop",
     tabImg: "/svg/tab.svg",
-    title: "Solana Solar -<br>Home Energy<br>Dashboard",
+    title: "Solana Solar -<br>Home Energy Dashboard",
     category: "Case Study",
     skills: ["Product Design", "UX/UI", "Dashboard Design", "Data Visualization"],
     desc: "Simplifying home solar energy monitoring through real-time data visualization.",
